@@ -397,7 +397,14 @@ ul > li > a {
 
 /* Page2 page du formulaire de contact */
 
-#link-page2 > ul > li > a {
+#bloc-7 > .container > .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #link-page2 > ul > li > a {
   text-decoration: none;
   list-style-type: none !important;
   display: flex;
@@ -442,7 +449,7 @@ ul > li > a {
 
 label {
   font-weight: 700;
-}
+} */
 
 /* Media querries */
 
@@ -990,8 +997,8 @@ h4 {
   h6,
   p,
   #disqus_thread {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
   }
   .b-parallax {
     background-attachment: scroll;
@@ -1114,6 +1121,9 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .mg-md {
+    font-size: 1.3em;
   }
 }
 
