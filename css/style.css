@@ -139,10 +139,6 @@ a:hover {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.black-background {
-  background-color: #ae0c2775 !important;
-}
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -393,6 +389,10 @@ ul > li > a {
   float: right;
   position: relative;
   z-index: 2;
+}
+
+#footer > .col-sm-4 {
+  margin-left: 20%;
 }
 
 /* Page2 page du formulaire de contact */
@@ -845,8 +845,9 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #ae0c2775;
   padding: 40px 40px 40px 40px;
+  width: 60%;
 }
 
 .bold-link {
@@ -858,9 +859,9 @@ h4 {
   background-color: #ffffff;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
   background-color: #ae0c28;
-}
+} */
 
 .bgc-atomic-tangerine {
   background-color: var(--backbround-contrast);
@@ -1197,5 +1198,14 @@ h4 {
   }
   .bloc-sm {
     padding: 0;
+  }
+  .black-background {
+    width: 80%;
+  }
+  #bloc-1-hero h1 {
+    font-size: 28px;
+  }
+  #text-presentation {
+    font-size: 20px;
   }
 }
