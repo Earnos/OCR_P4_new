@@ -674,7 +674,7 @@ a[data-lightbox]:hover img {
   padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  /* position: absolute; */
   left: 15px;
   right: 15px;
   bottom: 5px;
@@ -724,7 +724,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-  padding-bottom: 45px;
+  padding-bottom: 5px;
 }
 
 .snapshot-lb .lightbox-caption {
