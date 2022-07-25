@@ -1,4 +1,5 @@
 ("use strict");
+
 !(function (e, t) {
   "object" == typeof exports
     ? (module.exports = t())

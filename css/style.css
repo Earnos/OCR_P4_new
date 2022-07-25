@@ -404,52 +404,15 @@ ul > li > a {
   align-items: center;
 }
 
-/* #link-page2 > ul > li > a {
-  text-decoration: none;
-  list-style-type: none !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 25px;
-  margin-bottom: 30px;
+main > #map {
+  margin-left: 30%;
+  margin-bottom: 10%;
 }
 
-#link-page2 > ul > li {
-  display: flex;
+#map {
+  width: 40%;
+  height: 350px;
 }
-
-#form_1 {
-  margin: 0 30%;
-}
-
-.form-adress {
-  text-align: center;
-}
-
-#form_1 button {
-  text-align: center;
-}
-
-#bloc-6 {
-  text-align: center;
-}
-
-.form-group {
-  padding: 10px;
-}
-
-.form-adress {
-  font-size: 1em;
-  padding-top: 15px;
-}
-
-.form-button {
-  text-align: center;
-}
-
-label {
-  font-weight: 700;
-} */
 
 /* Media querries */
 
@@ -769,6 +732,7 @@ label,
 
 p {
   font-size: 18px;
+  text-align: center;
 }
 
 .tight-width-whitespace {
@@ -1203,7 +1167,6 @@ h4 {
     list-style-type: none;
   }
   .btn {
-    width: 100px;
     align-self: center;
   }
   .bloc-sm {
